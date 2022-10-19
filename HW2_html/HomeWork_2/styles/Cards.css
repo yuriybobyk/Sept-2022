@@ -1,12 +1,10 @@
-.card_container{
+.card_container {
     width: 100%;
     height: 1000px;
     display: flex;
-
-
 }
 
-.cards{
+.cards {
     width: 100%;
     display: flex;
     justify-content: space-evenly;
@@ -14,7 +12,7 @@
     margin-top: 150px;
 }
 
-.card1{
+.card1 {
     border: 3px solid black;
     width: 350px;
     height: 450px;
@@ -24,7 +22,7 @@
     justify-content: space-around;
 }
 
-.card2{
+.card2 {
     border: 3px solid black;
     width: 350px;
     height: 450px;
@@ -34,7 +32,7 @@
     justify-content: space-around;
 }
 
-.card3{
+.card3 {
     border: 3px solid black;
     width: 350px;
     height: 450px;
@@ -44,7 +42,7 @@
     justify-content: space-around;
 }
 
-b{
+b {
     text-align: center;
     box-sizing: border-box;
     font-size: 25px;
@@ -52,10 +50,16 @@ b{
     padding: 15px;
 }
 
-p{
+p {
     font-size: 21px;
     text-align: center;
     padding: 20px;
     color: #a29899;
 }
 
+a {
+    padding: 15px 70px;
+    border: 2px solid black;
+    font-size: 25px;
+    color: black;
+}
