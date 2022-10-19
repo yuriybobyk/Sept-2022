@@ -1,0 +1,11 @@
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.blocks{
+    width: 50%;
+    height: 100vh ;
+    background: cornflowerblue;
+}
