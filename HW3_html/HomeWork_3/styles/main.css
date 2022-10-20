@@ -32,7 +32,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 3px solid black;
+    border: 3px solid gray;
     padding: 35px;
     border-radius: 50%;
     background: white;
@@ -40,7 +40,7 @@
     position: relative;
 }
 .card1 {
-    border: 3px solid black;
+    border: 3px solid gray;
     width: 450px;
     height: 100%;
     display: flex;
@@ -52,7 +52,7 @@
 }
 
 .card2 {
-    border: 3px solid black;
+    border: 3px solid gray;
     width: 450px;
     height: 100%;
     display: flex;
@@ -62,7 +62,7 @@
 }
 
 .card3 {
-    border: 3px solid black;
+    border: 3px solid gray;
     width: 450px;
     height: 100%;
     display: flex;
