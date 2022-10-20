@@ -1,0 +1,93 @@
+.card_container {
+    width: 100%;
+    height: 1000px;
+    display: flex;
+}
+
+.cards {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 150px;
+}
+
+.fa-desktop{
+    font-size: 60px;
+    color: orange;
+}
+
+.fa-circle-quarters{
+    font-size: 60px;
+    color: orange;
+}
+
+.fa-martini-glass-citrus{
+    font-size: 60px;
+    color: orange;
+}
+
+.icon{
+    display: flex;
+    justify-content: center;
+    border: 3px solid black;
+    padding: 25px;
+}
+.card1 {
+    border: 3px solid black;
+    width: 450px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 150px;
+}
+
+.card2 {
+    border: 3px solid black;
+    width: 450px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.card3 {
+    border: 3px solid black;
+    width: 450px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-right: 150px;
+}
+
+b {
+    text-align: center;
+    box-sizing: border-box;
+    font-size: 30px;
+    font-family: Arial, sans-serif;
+    margin-top: 190px;
+
+
+}
+
+p {
+    font-size: 30px;
+    text-align: center;
+    padding: 20px;
+    color: #a29899;
+}
+
+a {
+    display: flex;
+    padding: 15px 70px;
+    border: 2px solid black;
+    font-size: 25px;
+    color: black;
+    margin-bottom: 70px;
+}
