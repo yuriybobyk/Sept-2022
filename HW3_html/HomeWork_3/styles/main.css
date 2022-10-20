@@ -37,6 +37,7 @@
     border-radius: 50%;
     background: white;
     margin-bottom: 40px;
+    position: relative;
 }
 .card1 {
     border: 3px solid black;
@@ -86,7 +87,7 @@ p {
     text-align: center;
     padding: 20px;
     color: #a29899;
-    margin-bottom: 0;
+    margin-bottom: 30px;
 }
 
 a {
