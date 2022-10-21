@@ -1,7 +1,9 @@
 .container{
-    width: 100%;
+    width: 60%;
     height: 100vh;
     background: silver;
+    margin-right: 400px;
+    margin-left: 400px;
 
 }
 
