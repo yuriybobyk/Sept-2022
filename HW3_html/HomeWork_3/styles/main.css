@@ -1,16 +1,43 @@
 .card_container {
     width: 100%;
-    height: 1000px;
+    height: 800px;
     display: flex;
+    align-items: center;
+    justify-content: space-evenly;
 }
 
 .cards {
-    width: 100%;
-    height: 500px;
+    border: 3px solid gray;
+    width: 20%;
+    height: 550px;
     display: flex;
-    justify-content: space-evenly;
+    flex-direction: column;
     align-items: center;
+    justify-content: space-between;
     margin-top: 150px;
+}
+
+.top-icons{
+    width: 100%;
+    height: 60px;
+    position: relative;
+}
+
+.profile{
+    width: 90px;
+    height: 90px;
+    background: white;
+    border: 3px solid gray;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 33%;
+    bottom: 50%;
+    padding: 20px;
+    margin-top: 40px;
+
 }
 
 .fa-desktop{
@@ -27,74 +54,37 @@
     font-size: 50px;
     color: orange;
 }
-
-.icon{
+.text{
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 3px solid gray;
-    padding: 35px;
-    border-radius: 50%;
-    background: white;
-    margin-bottom: 40px;
-    position: relative;
 }
-.card1 {
-    border: 3px solid gray;
-    width: 450px;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    justify-content: space-around;
-    margin-left: 150px;
-
-}
-
-.card2 {
-    border: 3px solid gray;
-    width: 450px;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    justify-content: space-around;
-}
-
-.card3 {
-    border: 3px solid gray;
-    width: 450px;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    justify-content: space-around;
-    margin-right: 150px;
-}
-
 b {
     text-align: center;
-    box-sizing: border-box;
     font-size: 30px;
-    font-family: Arial, sans-serif;
-    margin-top: 80px;
-
-
 }
 
+.center-text{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 p {
     font-size: 30px;
+    width: 100%;
+    padding: 22px;
     text-align: center;
-    padding: 20px;
     color: #a29899;
-    margin-bottom: 30px;
+
 }
 
-a {
+a{
     display: flex;
     padding: 15px 70px;
     border: 2px solid black;
     font-size: 25px;
     color: black;
-    margin-bottom: 150px;
+    margin-bottom: 70px;
 }

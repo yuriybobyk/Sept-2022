@@ -60,11 +60,14 @@ p {
     color: #a29899;
 }
 
-a {
+.click{
+    width: 100%;
+    height: 50px;
     display: flex;
-    padding: 15px 70px;
-    border: 2px solid black;
-    font-size: 25px;
-    color: black;
-    margin-bottom: 70px;
+    justify-content: center;
+    align-items: center;
+}
+
+a {
+
 }
