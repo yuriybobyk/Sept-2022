@@ -28,20 +28,32 @@
 }
 
 .right_side{
-    width: 300px;
+    width: 100px;
     height: 100px;
+    display: flex;
     margin-right: 45px;
-    border-radius: 15% ;
+    justify-content: space-around;
+    align-items: center;
+
+
 }
 
 .icons{
-    width: 200px;
-    height: 20px;
+    width: 80px;
+    height: 60px;
+    margin-top: 40px;
+    background: #cad4df;
 }
+
 
 .fa-magnifying-glass{
     color: darkviolet;
-    font-size: 75px;
+    font-size: 25px;
+}
+
+.fa-bars{
+    color: darkviolet;
+    font-size: 25px;
 }
 
 .centre{
