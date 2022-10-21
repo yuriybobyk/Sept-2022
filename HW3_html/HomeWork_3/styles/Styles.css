@@ -53,8 +53,19 @@
 .footer{
     width: 100%;
     height: 450px;
-    background: red;
+    background: #ccd6e0;
     display: flex;
     justify-content: center;
     position: relative;
+    column-gap: 45px;
+}
+
+.blocks{
+    width: 200px;
+    height: 170px;
+    background: #6863e1;
+    border-radius: 10%;
+    position: relative;
+    top: -90px;
+
 }
