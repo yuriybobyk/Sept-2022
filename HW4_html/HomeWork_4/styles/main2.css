@@ -1,0 +1,119 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.box{
+    width: 95%;
+    height: 95vh;
+    display: flex;
+    flex-direction: column;
+    column-gap: 10px;
+    row-gap: 10px;
+
+
+}
+
+.top-block{
+    width: 100%;
+    height: 340px;
+    background: silver;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    color: slategray;
+}
+
+.bottom-blocks{
+    width: 100%;
+    height: 650px;
+    border-radius: 10px;
+    display: flex;
+    column-gap: 10px;
+    row-gap: 10px;
+}
+
+.right-side{
+    height: 100%;
+    width: 25%;
+    border-radius: 10px;
+    background: silver;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    color: slategrey;
+}
+
+.left-side{
+    height: 100%;
+    width: 75%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    color: slategray;
+    column-gap: 10px;
+    row-gap: 10px;
+}
+
+.block-B{
+    height: 320px;
+    background: silver;
+    border-radius: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    color: slategrey;
+
+}
+
+.three-blocks{
+    height: 320px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    column-gap: 10px;
+    row-gap: 10px;
+}
+
+.block-C{
+    height: 100%;
+    width: 33%;
+    background: silver;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    color: slategrey;
+}
+
+.block-D{
+    height: 100%;
+    width: 33%;
+    background: silver;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    color: slategrey;
+}
+
+.block-E{
+    height: 100%;
+    width: 33%;
+    background: silver;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    color: slategrey;
+}
