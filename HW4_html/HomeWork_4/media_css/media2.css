@@ -7,8 +7,8 @@
     }
 
     .box{
-        width: 95%;
-        height: 95vh;
+        width: 100%;
+        height: 100%;
         display: flex;
         flex-direction: column;
         column-gap: 20px;
@@ -29,7 +29,7 @@
 
     .bottom-blocks{
         width: 100%;
-        height: 650px;
+        height: 750px;
         border-radius: 10px;
         display: flex;
         column-gap: 10px;
@@ -47,6 +47,8 @@
         justify-content: center;
         font-size: 25px;
         color: slategrey;
+        column-gap: 10px;
+        row-gap: 10px;
     }
 
     .left-side{
@@ -61,7 +63,7 @@
     }
 
     .block-B{
-        height: 620px;
+        height: 380px;
         background: silver;
         border-radius: 10px;
         width: 100%;
@@ -78,8 +80,8 @@
         width: 100%;
         display: flex;
         align-items: center;
-        column-gap: 20px;
-        row-gap: 20px;
+        column-gap: 10px;
+        row-gap: 10px;
     }
 
     .block-C{
