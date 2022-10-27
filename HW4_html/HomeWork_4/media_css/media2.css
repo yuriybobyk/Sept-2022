@@ -1,0 +1,120 @@
+@media screen and (min-width: 0) and (max-width: 672px){
+    body{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+    .box{
+        width: 95%;
+        height: 95vh;
+        display: flex;
+        flex-direction: column;
+        column-gap: 20px;
+        row-gap: 20px;
+    }
+
+    .top-block{
+        width: 100%;
+        height: 150px;
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 25px;
+        color: slategray;
+    }
+
+
+    .bottom-blocks{
+        width: 100%;
+        height: 650px;
+        border-radius: 10px;
+        display: flex;
+        column-gap: 10px;
+        row-gap: 10px;
+        flex-direction: column;
+    }
+
+    .right-side{
+        height: 150px;
+        width: 100%;
+        border-radius: 10px;
+        background: silver;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 25px;
+        color: slategrey;
+    }
+
+    .left-side{
+        height: 100%;
+        width: 100%;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        color: slategray;
+        column-gap: 10px;
+        row-gap: 10px;
+    }
+
+    .block-B{
+        height: 620px;
+        background: silver;
+        border-radius: 10px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 25px;
+        color: slategrey;
+
+    }
+
+    .three-blocks{
+        height: 220px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        column-gap: 20px;
+        row-gap: 20px;
+    }
+
+    .block-C{
+        height: 120px;
+        width: 120px;
+        background: silver;
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 25px;
+        color: slategrey;
+    }
+
+    .block-D{
+        height: 120px;
+        width: 120px;
+        background: silver;
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 25px;
+        color: slategrey;
+    }
+
+    .block-E{
+        height: 120px;
+        width: 120px;
+        background: silver;
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 25px;
+        color: slategrey;
+    }
+}
